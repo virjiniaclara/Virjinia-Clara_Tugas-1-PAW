@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#bg-video {
+    position: fixed;  
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    z-index: -1;       
+}
+
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.content {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    color: #13636a;
+    position: relative;
+    padding-top: 0px;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    padding-top :10px; ;
+}
+
+.content h1{
+    font-family: 'Press Start 2P';
+    font-size: 45px;
+    padding-left: 25px;
+    margin-top: 10%;
+    letter-spacing: 2px;
+}
+
+
+.cn:hover{
+    background-color: #fff;
+}
+
+.content span{
+    color: #ea44a0;
+    font-size: 65px
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+#bg-video {
+    position: fixed;  
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    z-index: -1;       
+}
+
+
+
+
+.form {
+    width: 300px;
+    background: linear-gradient(to top, rgba(34, 147, 128, 0.8) 50%, rgba(34, 147, 128, 0.8) 50%);
+    position: absolute;
+    top: -30px;
+    left: 870px;
+    transform: translate(0%, -5%);
+    border-radius: 10px;
+    padding: 25px;
+    
+    h2 {
+        text-align: center;
+        color: #ea44a0;
+        font-size: 22px;
+        background-color: #fff;
+        border-radius: 10px;
+        margin: 10px 0;
+        padding: 8px;
+    }
+
+    label {
+        display: block;
+        color: #fff;
+        font-weight: bold;
+        margin-top: 15px;
+    }
+
+    input, select {
+        width: 100%;
+        height: 35px;
+        background: transparent;
+        border: 1px solid #fff;
+        color: #ffffff;
+        font-size: 15px;
+        margin-top: 5px;
+        padding: 5px;
+        border-radius: 5px;
+
+        &:focus {
+            outline: none;
+            border-color: #ea44a0;
+        }
+
+        option {
+            color: #ea44a0; 
+            background: #fff;
+        }
+    }
+
+    .radio-group {
+        display: flex; 
+        align-items: center; 
+        gap: 20px;
+    }
+    
+    .radio-group label {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    
+    .radio-group input {
+        width: 16px;
+        height: 16px;
+    }
+    
+
+    .btnn {
+        width: 100%;
+        height: 40px;
+        background: #ea44a0;
+        border: none;
+        margin-top: 20px;
+        font-size: 18px;
+        border-radius: 10px;
+        cursor: pointer;
+        color: #fff;
+        transition: 0.4s ease;
+
+        &:hover {
+            background-color: #fff;
+            color: #ea44a0;
+        }
+    }
+}
+
+

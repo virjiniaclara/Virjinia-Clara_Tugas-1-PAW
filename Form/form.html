@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Webpage Form</title>
+    <link rel="stylesheet" href="styleform.css">
+</head>
+<body>
+    
+<script>
+    document.addEventListener("visibilitychange", function() {
+        var video = document.getElementById("bg-video");
+        if (document.visibilityState === "visible") {
+            video.play(); 
+        }
+    });
+
+    window.addEventListener("focus", function() {
+        var video = document.getElementById("bg-video");
+        video.play(); 
+    });
+</script>
+
+    <div class="bg">
+        <video autoplay loop muted playsinline id="bg-video">
+            <source src="pixelvid.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="main">
+        <div class="navbar">
+
+
+        </div> 
+        
+        <div class="content">
+            <h1>Hallow <br><span>welcome</span> <br>Fellow </h1><br>
+            <p class="par">Selamat datang di halaman tugas Perancangan dan Analisis Website!  <br> Sebelum masuk ke CV saya, tolong isi form dulu ya! <br>              
+                <br> 🕹️ let’s start >>></p>
+
+              <div class="form">
+    <h2>Login Here</h2>
+    
+    <input type="text" name="name" placeholder="Enter Your Name">
+    <input type="email" name="email" placeholder="Enter Email Here">
+    
+    <label>Jenis Kelamin:</label>
+    <div class="radio-group">
+        <label><input type="radio" name="gender" value="Laki-laki"> Laki-laki</label>
+        <label><input type="radio" name="gender" value="Perempuan"> Perempuan</label>
+    </div>
+    
+
+    <div class="dropdown-group">
+        <label for="education">Pendidikan:</label>
+        <select name="education" id="education">
+            <option value="SD">SD</option>
+            <option value="SMP">SMP</option>
+            <option value="SMA">SMA</option>
+            <option value="S1">S1</option>
+            <option value="Lainnya">Lainnya</option>
+        </select>
+    </div>
+
+    <input type="text" name="purpose" placeholder="Enter Your Purpose Here">
+    
+    <a href="base_cv.html">
+        <button class="btnn">Login</button>
+    </a>
+</div>
+
+                    
+                </div>
+                    </div>
+
+                </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+
+</html>
